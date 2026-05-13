@@ -1,0 +1,95 @@
+# ===================================
+# BUILD OUTPUT
+# ===================================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===================================
+# SECRETS & SENSITIVE CONFIG
+# ===================================
+*.env
+.env
+.env.*
+application.properties
+application-*.properties
+!application.properties.example
+application-local.yml
+application-dev.yml
+application-prod.yml
+secrets.*
+credentials.*
+
+# Keystores & Certificates
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.crt
+*.cer
+
+# ===================================
+# IDE — IntelliJ IDEA
+# ===================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ===================================
+# IDE — Eclipse / STS
+# ===================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# ===================================
+# IDE — NetBeans
+# ===================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===================================
+# IDE — VS Code
+# ===================================
+.vscode/
+
+# ===================================
+# MAVEN WRAPPER
+# ===================================
+.mvn/wrapper/maven-wrapper.jar
+
+# ===================================
+# OS FILES
+# ===================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================================
+# LOGS
+# ===================================
+*.log
+logs/
+spring.log
+
+# ===================================
+# MISC / PERSONAL FILES
+# ===================================
+*.py
+*.md
+!README.md
+HELP.md
