@@ -307,4 +307,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Yassine-Atiki">Yassine Atiki</a>
+  <a href="[https://github.com/Yassine-Atiki](https://github.com/Mohamed-Amine-NIHMATOUALLAH)">Mohamed-Amine-NIHMATOUALLAH</a>
 </p>
